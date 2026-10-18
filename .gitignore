@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Ambientes e Segredos
+.env
+*.key
+*.pem
+secrets/
+
+# Dados locais do JARVIS
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/logs/*
+data/backups/*
+!data/logs/.gitkeep
+!data/backups/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
