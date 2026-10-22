@@ -21,6 +21,7 @@ const Header: React.FC<HeaderProps> = ({ resumeFilePath }) => {
     { href: "#projetos", label: "Projetos" },
     { href: "#stack", label: "Competências" },
     { href: "#formacao", label: "Formação" },
+    { href: "#clientes", label: "Clientes" },
   ];
 
   return (

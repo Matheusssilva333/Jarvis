@@ -6,8 +6,14 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Matheus Silva | Planejamento Industrial",
-  description: "Portfólio profissional de Matheus Silva: planejamento de manutenção, tubulações, sistemas industriais, trajetória de campo e artigos técnicos.",
+  title: "Matheus Silva | Python, IA & Automação",
+  description: "Portfólio de Matheus Silva, estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor com foco em Python, Inteligência Artificial, automação e soluções digitais aplicadas à indústria.",
+  openGraph: {
+    title: "Matheus Silva | Python, IA & Automação",
+    description: "Desenvolvedor Python em formação, com experiência industrial real e foco em IA, automação e transformação digital.",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

@@ -43,6 +43,14 @@ export interface Feedback {
   imageUrls: string[];
 }
 
+export interface Client {
+  id: string;
+  name: string;
+  role: string;
+  tags: string[];
+  avatarUrl?: string;
+}
+
 export interface Message {
   role: 'user' | 'assistant';
   content: string;
